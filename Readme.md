@@ -67,3 +67,5 @@ To persist your configuration the following files have to be mounted as Volume
 - /localvoldir/conf.d:/var/www/html/conf.d
 
 `docker run -d -p 8020:80 --link mysqlserver --name suitecrmserver -v /opt/localpath/upload:/var/www/html/upload -v /opt/localpath/conf.d:/var/www/html/conf.d suitecrm`
+
+Version 7.8.2 with fix for warnings
